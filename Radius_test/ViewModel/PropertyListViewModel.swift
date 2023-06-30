@@ -7,18 +7,6 @@
 
 import Foundation
 
-struct Exclusion{
-    
-    var facilityId : String
-    var optionId:String
-    var exFacilityId:String
-    var exOptionId:String
-    var isSelected:Bool = false
-    
-    
-}
-
-
 class PropertyListViewModel{
     
     var arrFacilities = [PropertyListFacility]()
@@ -27,7 +15,6 @@ class PropertyListViewModel{
     
     //MARK: - Get Property Data from Server
     func getPropertyList(onSccuess : @escaping () -> Void,onError : @escaping (String) -> Void){
-        
         
         guard let propertyListUrl = URL(string: APIServices.propertyList) else {
             print("Invalid url")

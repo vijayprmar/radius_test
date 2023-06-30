@@ -90,3 +90,15 @@ struct PropertyListExclusion : Codable {
 
 
 }
+
+
+struct Exclusion{
+    
+    var facilityId : String
+    var optionId:String
+    var exFacilityId:String
+    var exOptionId:String
+    var isSelected:Bool = false
+    
+    
+}

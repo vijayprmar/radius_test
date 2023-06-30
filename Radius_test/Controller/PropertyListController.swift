@@ -19,6 +19,7 @@ class PropertyListController: UIViewController {
     
     //MARK: - Initial Setup
     private func initialSetup(){
+        self.title = "Property List"
         tblPropertyList.delegate = self
         tblPropertyList.dataSource = self
         getData()
