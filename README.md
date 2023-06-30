@@ -1,4 +1,4 @@
-# Propert List 
+# Property List 
 
 From the Given Document here I have Listed Property List and Its option in UITableview, I used URL Session for API calling and Codable classis for JSON Paring
 
